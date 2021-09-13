@@ -13,6 +13,7 @@ body{
 
 header{
     font-size: 1.5rem;
+    text-shadow: 2px 2px whitesmoke;
 }
 
 header,
