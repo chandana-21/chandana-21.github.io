@@ -1051,6 +1051,12 @@
     text-decoration: none;
 }
 
+
+
+
+
+
+
 /* Mobile responsive */
 @media screen and (max-width:1100px){
     .main__container{
@@ -1068,7 +1074,22 @@
         justify-content: center;
     }
 
+    .contact__img--card h2{
+        font-size: 2rem;
+        margin-left: 8rem;
+    }
+
     .main__img--card{
+        height: 425px;
+        width: 425px;
+    }
+
+    .contact__img--container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact__img--card{
         height: 425px;
         width: 425px;
     }
@@ -1099,8 +1120,37 @@
         height: 250px;
     }
 
+    .contact__img--card{
+        width: 250px;
+        height: 250px;
+    }
+
+    .fa-code,
+    .fa-html5,
+    .fa-css3-alt,
+    .fa-js-square,
+    .fa-python
+    {
+        font-size: 1rem;
+    }
+
+    .contact__img--card h2{
+        font-size: 1.25rem;
+        margin-left: 5rem;
+    }
+
+    .main__img--card  p{
+        font-size: 1.25rem;
+        margin-left: 4rem;
+    }
+
+    .main__img--card  h1{
+        font-size: 1.3rem;
+        /* margin-left: 4rem; */
+    }
+
     .fa-users {
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
 
     .main__content h1 {
