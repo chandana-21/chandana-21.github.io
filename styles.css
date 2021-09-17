@@ -1349,7 +1349,7 @@
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
-    transition: 0.3 ease-out;
+    transition: all 0.3 ease-in;
 }
 
 .footer__link--items a:hover {
@@ -1387,8 +1387,8 @@
 .social__icons a:hover {
     color: #d4c9c9;
     
-    transform: scale(1.5);
-    transition: 0.3s ease-in;
+    transform: scale(1.2);
+    transition: 0.1s ease-in;
 }
 
 .website__rights {
