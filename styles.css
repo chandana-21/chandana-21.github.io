@@ -1220,7 +1220,7 @@
       cursor: not-allowed;
   }
 
-  .projects__card:nth-child(2) {
+  .projects__card_2 {
     background: #1fa2ff; 
     background: -webkit-linear-gradient(
       to right,
@@ -1239,7 +1239,7 @@
 
   }
   
-  .projects__card:nth-child(3) {
+  .projects__card_3 {
     background-image: linear-gradient(
         to right,
       #231557 0%,
